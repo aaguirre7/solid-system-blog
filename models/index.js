@@ -1,7 +1,7 @@
 //import modules
 const User = require('./User');
 const Post = require('./Post');
-const Comment = require('./Comment');
+const Comment = require('./Comments');
 //start associations
 User.hasMany(Post, {
     foreignKey: 'user_id'
