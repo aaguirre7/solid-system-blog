@@ -1,0 +1,30 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "172.24.208.1",
+            "port": 3306,
+            "driver": "MySQL",
+            "database": "jedi_temple",
+            "password": "password",
+            "username": "wsl",
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "name": "EMPT"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "MySQL",
+            "name": "docker",
+            "database": "blog",
+            "username": "root"
+        }
+    ]
+}
